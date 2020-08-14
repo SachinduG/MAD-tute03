@@ -67,7 +67,7 @@ public class SecondActivity extends AppCompatActivity {
         btnMul.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Result = String.valueOf(val1 - val2);
+                Result = String.valueOf(val1 * val2);
                 tvResult.setText(val1+" x "+val2+" = "+Result);
             }
         });
